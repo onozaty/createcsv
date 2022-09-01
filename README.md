@@ -6,11 +6,11 @@ You can easily create large csv file.
 ## Usage
 
 ```
-$ createcsv.exe -s 10gb -o 10gb.csv
+$ createcsv -s 10gb -o 10gb.csv
 ```
 
 ```
-$ createcsv.exe -n 1000 -o 1000record.csv
+$ createcsv -n 1000 -o 1000record.csv
 ```
  
 The arguments are as follows.
