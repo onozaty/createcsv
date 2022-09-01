@@ -29,7 +29,7 @@ func main() {
 
 	flag.Int64VarP(&recordNum, "num", "n", 0, "Number of records.")
 	flag.StringVarP(&sizeStr, "size", "s", "", "Size. Can be specified in KB, MB, or GB. (ex. 1gb)")
-	flag.IntVarP(&columnNum, "col", "c", 10, "Number of columns.")
+	flag.IntVarP(&columnNum, "col", "c", 100, "Number of columns.")
 	flag.StringVarP(&outputPath, "output", "o", "", "Output file path.")
 	flag.BoolVarP(&help, "help", "h", false, "Help.")
 	flag.Parse()
